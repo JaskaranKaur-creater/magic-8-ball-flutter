@@ -40,7 +40,7 @@ class _MagicBallState extends State<MagicBall> {
   void randomBall() {
     setState(
       () {
-        ballNumber = Random().nextInt(4) + 1;
+        ballNumber = Random().nextInt(5) + 1;
       },
     );
   }
